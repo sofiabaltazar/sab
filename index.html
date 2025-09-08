@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sofia Angela | Portfolio</title>
+  <!-- Custom CSS (for colors and layout overrides) -->
+  <link rel="stylesheet" href="css/portfolio.css" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">  
+ <!-- fontawesome -->
+<link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+</head>
+
+<body>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg sticky-top" style="background-color: #2A3663;">
+  <div class="container">
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#home" style="color:#FAF6E3;">
+      Sofia Angela <span style="color:#B59F78;">| Portfolio</span>
+    </a>
+
+    
+    <!-- Mobile Toggle Button -->
+    <button class="navbar-toggler text-light border-0" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" 
+      aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- Custom icon (so it’s visible on dark background) -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navigation Links -->
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+        <li class="nav-item"><a class="nav-link nav-custom" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link nav-custom" href="#bundles">Bundles</a></li>
+        <li class="nav-item"><a class="nav-link nav-custom" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link nav-custom" href="#testimonials">Testimonials</a></li>
+        <!-- <li class="nav-item"><a class="nav-link nav-custom" href="#services">Services</a></li> -->
+        <li class="nav-item"><a class="nav-link nav-custom" href="#about">About</a></li>
+
+        <!-- CTA Contact Button -->
+        <li class="nav-item">
+          <a class="btn contact-btn ms-2" style="background-color:#F5C45E; color:#102E50; border:none; font-weight:600;" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Sticky Social Bar -->
+<nav class="sticky-social" aria-label="Social links">
+  <!-- Facebook -->
+  <a class="social-link" href="https://facebook.com/littlethingsbyfia" target="_blank" rel="noopener"
+     aria-label="Facebook" data-label="Facebook">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+
+  <!-- Instagram -->
+  <a class="social-link" href="https://instagram.com/littlethingsbyfia" target="_blank" rel="noopener"
+     aria-label="Instagram" data-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+
+  <!-- TikTok -->
+  <a class="social-link" href="https://tiktok.com/@littlethingsbyfia" target="_blank" rel="noopener"
+     aria-label="TikTok" data-label="TikTok">
+    <i class="fa-brands fa-tiktok"></i>
+  </a>
+
+  <!-- Messenger -->
+  <a class="social-link" href="https://m.me/littlethingsbyfia" target="_blank" rel="noopener"
+     aria-label="Messenger" data-label="Messenger">
+    <i class="fa-brands fa-facebook-messenger"></i>
+  </a>
+
+    <!-- github -->
+  <a class="social-link" href="https://github.com/iamsofiaangela" target="_blank" rel="noopener"
+     aria-label="Messenger" data-label="Messenger">
+    <i class="fa-brands fa-github"></i>
+  </a>
+</nav>
+
+  
+  <!-- HERO -->
+  <section id="home" class="hero" style="background-color: #f8f0e5" >
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1>Designing Solutions. Automating Workflows. Helping Ideas Grow.</h1>
+          <p class="tagline">
+          I’m <strong>Sofia Angela</strong> also known as Fia — I help entrepreneurs and small businesses work smarter with
+          <em>automation</em>, <em>web design</em>, and <em>branding</em>. My mission is simple: to save you time, bring clarity to your systems, and make your brand shine.
+          </p>
+          <div class="d-flex gap-2 flex-wrap">
+            <a href="#projects" class="btn btn-primary">Explore Projects</a>
+            <a href="#contact" class="btn btn-secondary">Work With Me</a>
+          </div>
+          <hr>
+         <ul class="list-inline mt-3 d-flex flex-wrap gap-2">
+  <li class="list-inline-item"><span class="pill pill-purple">GoHighLevel</span></li>
+  <li class="list-inline-item"><span class="pill pill-gray">Pabbly</span></li>
+  <li class="list-inline-item"><span class="pill pill-blue">Zapier</span></li>
+  <li class="list-inline-item"><span class="pill pill-yellow">ClickUp</span></li>
+  <li class="list-inline-item"><span class="pill pill-green">QuickBooks</span></li>
+  <li class="list-inline-item"><span class="pill pill-orange">HTML</span></li>
+  <li class="list-inline-item"><span class="pill pill-red">CSS</span></li>
+  <li class="list-inline-item"><span class="pill pill-yellow">JavaScript</span></li>
+  <li class="list-inline-item"><span class="pill pill-dark">PHP/MySQL</span></li>
+  <li class="list-inline-item"><span class="pill pill-teal">WordPress</span></li>
+</ul>
+        </div>
+        <div class="col-lg-5">
+          <div class="card" style="background-color: transparent; border: none;">
+              <img src="/assets/Profile Picture.png" style="width:100%">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<!-- BUNDLES (Creative Showcase) -->
+<section id="bundles" class="section bundles-section py-5" 
+         style="background: url('assets/shell royal blue.png') no-repeat center center/cover; position: relative;">
+
+  <div style="padding: 3rem 0;">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color: #ffffff;">Creative Bundles by Little Things by Fia</h2>
+      <p class="text-center mb-5" style="color: #ffffff;"> Designed for small businesses, freelancers, and dreamers — bundles that give you <em>clarity, style, and systems</em> without the overwhelm.</p>
+      <div class="row g-4">
+
+        <!-- Bundle 1: Starter -->
+        <div class="col-md-6 col-lg-3">
+          <div class="bundle-card shadow p-3 rounded h-100 text-center bg-white">
+            <!-- <img src="assets/mockup-starter.png" alt="Starter Bundle" class="img-fluid rounded mb-3">-->
+            <h3 class="h5">Starter Bundle</h3>
+            <p class="bundle-desc">Kickstart your brand identity with clean, simple essentials.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Get This Bundle</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#starterModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Bundle 2: Growth -->
+        <div class="col-md-6 col-lg-3">
+          <div class="bundle-card shadow p-3 rounded h-100 text-center bg-white">
+           <!-- <img src="assets/mockup-starter.png" alt="Starter Bundle" class="img-fluid rounded mb-3">-->
+            <h3 class="h5">Growth Bundle</h3>
+            <p class="bundle-desc">Perfect for small biz owners ready to grow online.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Get This Bundle</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#growthModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Bundle 3: Creative Pro -->
+        <div class="col-md-6 col-lg-3">
+          <div class="bundle-card shadow p-3 rounded h-100 text-center bg-white">
+            <!-- <img src="assets/mockup-starter.png" alt="Starter Bundle" class="img-fluid rounded mb-3">-->
+            <h3 class="h5">Creative Pro Bundle</h3>
+            <p class="bundle-desc">For entrepreneurs who want polished, consistent branding.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Get This Bundle</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#proModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Bundle 4: Ultimate -->
+        <div class="col-md-6 col-lg-3">
+          <div class="bundle-card shadow p-3 rounded h-100 text-center bg-white">
+            <!-- <img src="assets/mockup-starter.png" alt="Starter Bundle" class="img-fluid rounded mb-3">-->
+            <h3 class="h5">Ultimate Bundle</h3>
+            <p class="bundle-desc">The all-in-one package for businesses ready to scale.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Get This Bundle</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#ultimateModal">More Info</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================= MODALS ========================= -->
+
+<!-- Starter Modal -->
+<div class="modal fade" id="starterModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Starter Bundle – Brand Basics</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body small">
+        <h6>Services:</h6>
+        <ul>
+          <li>✔ Basic Logo Design (1 concept + 1 revision)</li>
+          <li>✔ Simple Brand Color Palette & Font Guide</li>
+          <li>✔ 5 Editable Social Media Templates</li>
+        </ul>
+        <h6>Freebie:</h6>
+        <ul>
+          <li>🎁 1 Printable Journal / Notepad (digital copy)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Growth Modal -->
+<div class="modal fade" id="growthModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Growth Bundle – Social Media Ready</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body small">
+        <h6>Services:</h6>
+        <ul>
+          <li>✔ Logo Design + Mini Brand Kit (logo, palette, fonts)</li>
+          <li>✔ 10 Editable Social Media Templates</li>
+          <li>✔ 1 Facebook Page Branding (cover + profile frame)</li>
+          <li>✔ 1 Infographic / Carousel Post</li>
+        </ul>
+        <h6>Freebies:</h6>
+        <ul>
+          <li>🎁 1 E-book (Quick Branding Tips or Social Media Starter Guide)</li>
+          <li>🎁 1 Printable Notebook / Journal</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pro Modal -->
+<div class="modal fade" id="proModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Creative Pro Bundle – For Growing Brands</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body small">
+        <h6>Services:</h6>
+        <ul>
+          <li>✔ Complete Branding Kit (logo variations, typography, palette, icons)</li>
+          <li>✔ 20 Editable Social Media Templates</li>
+          <li>✔ 2 Infographics / Carousel Posts</li>
+          <li>✔ Facebook Page Branding (cover, profile, story highlights)</li>
+          <li>✔ 1 Short Video Edit (promo reel, story ad, or intro)</li>
+        </ul>
+        <h6>Freebies:</h6>
+        <ul>
+          <li>🎁 Digital Planner (monthly/weekly layout)</li>
+          <li>🎁 5 Bonus Templates</li>
+          <li>🎁 1 E-book (Productivity or Branding)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ultimate Modal -->
+<div class="modal fade" id="ultimateModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <h5 class="modal-title">Ultimate Bundle – All-in-One Kickstart</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body small">
+        <h6>Services:</h6>
+        <ul>
+          <li>✔ Full Visual Identity Package (logo suite, brand guide, assets)</li>
+          <li>✔ 30 Social Media Templates + Content Posting Strategy</li>
+          <li>✔ 5 Infographics / Carousel Posts</li>
+          <li>✔ Facebook Page Branding (cover, highlights, pinned post design)</li>
+          <li>✔ 2 Short Video Edits (promo reels, story ads, product showcase)</li>
+          <li>✔ Digital Product Creation (planner, journal, or ebook)</li>
+        </ul>
+        <h6>Freebies:</h6>
+        <ul>
+          <li>🎁 Business Digital Pack (planner + tracker + content calendar)</li>
+          <li>🎁 2 E-books (Branding + Social Media Growth)</li>
+          <li>🎁 10 Extra Templates</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- SERVICES – “Why Choose Fia” -->
+<section id="services" class="section py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">
+        Why Choose <strong class="text-primary">Fia</strong>
+      </h2>
+      <span>Here’s why clients trust me to streamline systems, design web experiences, and bring automation to life.</span>
+    </div>
+
+    <div class="row align-items-center">
+      <!-- Left Column -->
+      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+        <div class="pb-sm-4 text-center text-sm-end">
+          <div class="mb-4">
+            <img src="assets/why fia/1.png" alt="Automation" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Built-for-you Automation</h4>
+          <p class="small-text mb-0">From lead capture to invoicing, I build automation that works with your rhythm—not against it.</p>
+        </div>
+        <div class="text-center text-sm-end">
+          <div class="mb-4">
+            <img src="assets/why fia/2.png" alt="Visual Design" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Thoughtful Design</h4>
+          <p class="small-text mb-0">Visuals that feel intentional — whether it’s branding, quick websites, or email templates.</p>
+        </div>
+      </div>
+
+      <!-- Center Image Column -->
+      <div class="col-lg-4 d-none d-lg-block text-center">
+        <div class="why-choose-center-image">
+          <img src="assets/Logo - Little Things By Fia .png" alt="Studio Work" class="rounded-circle" style="width:250px;">
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6 col-lg-4">
+        <div class="ps-md-4 text-center text-sm-start">
+          <div class="mb-4">
+            <img src="assets/why fia/5.png" alt="Web Design" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Website Design</h4>
+          <p class="small-text mb-0">From simple landing pages to full business sites, I design web experiences that are modern, responsive, and user-friendly.</p>
+        </div>
+        <div class="text-center text-sm-start mt-4">
+          <div class="mb-4">
+            <img src="assets/why fia/4.png" alt="QA & Workflow" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">QA-first Workflows</h4>
+          <p class="small-text mb-0">All systems are tested and documented — so you're not just set up, you're set up smartly.</p>
+        </div>
+        <div class="text-center text-sm-start mt-4">
+          <div class="mb-4">
+            <img src="assets/why fia/3.png" alt="Support" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Support That Lasts</h4>
+          <p class="small-text mb-0">I don’t disappear after launch — I teach, refine, and support long after we go live.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section id="projects" class="section py-5" style="background-color:#456882;">
+  <div class="container">
+    <h2 class="section-title text-center mb-3" style="color:#F9F3EF;">Every Project Tells a Story…</h2>
+    <p class="section-intro text-center mb-5" style="color:#F9F3EF;">
+      From automation to design — here’s how challenges turned into <strong>clarity, systems, and results.</strong>
+    </p>
+
+    <div class="row g-4">
+      <!-- Project 1 / Lead-to-Client-Pipeline-Case-Study.pdf -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-lg p-3"
+             style="background: rgba(255,255,255,0.7); border: 2px solid #DAA520; border-radius:1rem;">
+          <img src="assets/case-study-image/Lead-to-Client/Lead-to-Client(2).png" class="card-img-top rounded mb-3" alt="Lead to Client Project">
+          <div class="card-body">
+            <span class="badge mb-2" style="background-color:#DAA520; color:#102C57;">Automation</span>
+            <h3 class="h5" style="color:#102C57;">Lead-to-Client Pipeline Automation (GoHighLevel)</h3>
+            <p style="color:#183B4E;"> How we automated lead capture, nurturing, and the Marketing → Sales handoff to boost engagement and conversions. </p>
+            <p style="color:#183B4E;"><strong>Tools Used:</strong> GoHighLevel, Google Calendar, Email Automation</p>
+            <button class="btn btn-sm mt-2"
+                    style="background-color:#102C57; color:white; border:none;"
+                    data-bs-toggle="modal" data-bs-target="#modal1">
+              Read Short Version →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 / SaaS CRM Appointment Funnel (Agency) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-lg p-3"
+             style="background: rgba(255,255,255,0.7); border: 2px solid #DAA520; border-radius:1rem;">
+          <img src="assets/case-study-image/saas-appointment/crm_appointment (2).png" class="card-img-top rounded mb-3" alt="SaaS CRM">
+          <div class="card-body">
+            <span class="badge mb-2" style="background-color:#DAA520; color:#102C57;">Automation</span>
+            <h3 class="h5" style="color:#102C57;"> SaaS CRM Appointment Funnel (Agency)</h3>
+            <p style="color:#183B4E;">How we turned a fragmented appointment system into a streamlined, automated funnel that boosts show-up rate and conversions.</p>
+            <p style="color:#183B4E;"><strong>Tools Used:</strong> GoHighLevel, SOP Docs, Email, Google Calendar</p>
+            <button class="btn btn-sm mt-2"
+                    style="background-color:#102C57; color:white; border:none;"
+                    data-bs-toggle="modal" data-bs-target="#modal2">
+              Read Short Version →
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 / GHL → QuickBooks Integration (via Pabbly) -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-lg p-3"
+             style="background: rgba(255,255,255,0.7); border: 2px solid #DAA520; border-radius:1rem;">
+          <img src="assets/case-study-image/GHL-QB-Integration/qb(1).png" class="card-img-top rounded mb-3" alt="GHL QuickBooks Integration">
+          <div class="card-body">
+            <span class="badge mb-2" style="background-color:#DAA520; color:#102C57;">Integration</span>
+            <h3 class="h5" style="color:#102C57;">GHL → QuickBooks Integration (via Pabbly)</h3>
+            <p style="color:#183B4E;"> How we automated invoicing by connecting GoHighLevel with QuickBooks through Pabbly, saving hours of manual work.</p>
+            <p style="color:#183B4E;"><strong>Tools Used:</strong> GoHighLevel, Pabbly Connect, QuickBooks</p>
+            <button class="btn btn-sm mt-2"
+                    style="background-color:#102C57; color:white; border:none;"
+                    data-bs-toggle="modal" data-bs-target="#modal4">
+              Read Short Version →
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hidden Projects (start collapsed) -->
+    <div id="more-projects" class="collapse mt-3">
+      <div class="row g-4">
+
+        <!-- Project 4 /Signed Contract → Onboarding Trigger -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-lg p-3"
+               style="background: rgba(255,255,255,0.7); border: 2px solid #DAA520; border-radius:1rem;">
+            <img src="assets/case-study-image/Signed-Contract/Signed-Contract (3).png" class="card-img-top rounded mb-3" alt="Email & Tag Automation">
+            <div class="card-body">
+              <span class="badge mb-2" style="background-color:#DAA520; color:#102C57;">Automation</span>
+              <h3 class="h5" style="color:#102C57;">Signed Contract → Onboarding Trigger</h3>
+              <p style="color:#183B4E;">Automating onboarding so every signed contract instantly launches client welcome, task creation, and team alignment.</p>
+              <p style="color:#183B4E;"><strong>Tools Used:</strong> GoHighLevel, Email Templates, Tagging Rules</p>
+              <button class="btn btn-sm mt-2"
+                      style="background-color:#102C57; color:white; border:none;"
+                      data-bs-toggle="modal" data-bs-target="#modal5">
+                Read Short Version →
+              </button>
+            </div>
+          </div>
+        </div>
+
+         <!-- Project 5 /Facebook page for Monica's Gown-->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 shadow-lg p-3"
+               style="background: rgba(255,255,255,0.7); border: 2px solid #DAA520; border-radius:1rem;">
+            <img src="assets/case-study-image/facebook-page-monica/facebook-page-monica.png" class="card-img-top rounded mb-3" alt="Email & Tag Automation">
+            <div class="card-body">
+              <span class="badge mb-2" style="background-color:#DAA520; color:#102C57;">Automation</span>
+              <h3 class="h5" style="color:#102C57;">Facebook Page Creation → Increase Sales</h3>
+              <p style="color:#183B4E;">Build and optimize a Facebook Page as a digital storefront to increase awareness, drive engagement, and convert followers into buyers.</p>
+              <p style="color:#183B4E;"><strong>Tools Used:</strong> Facebook </p>
+              <button class="btn btn-sm mt-2"
+                      style="background-color:#102C57; color:white; border:none;"
+                      data-bs-toggle="modal" data-bs-target="#modal6">
+                Read Short Version →
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- /.row -->
+    </div> <!-- /#more-projects -->
+
+    <!-- Show More Button -->
+    <div class="text-center mt-4">
+      <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#more-projects" aria-expanded="false" aria-controls="more-projects" id="toggleBtn">
+        ▼ Show More
+      </button>
+    </div>
+
+    <!-- CTA -->
+    <div class="studio-cta text-center mt-5">
+      <a href="https://instagram.com/littlethingsbyfia" target="_blank"
+         class="btn me-2" style="background-color:#DAA520; color:#102C57; border:none;">See More on Instagram</a>
+      <a href="#contact" class="btn"
+         style="background-color:#102C57; color:white; border:none;">Start Your Project</a>
+    </div>
+  </div>
+</section>
+  
+<!-- ===================== MODALS WITH CAROUSEL ===================== -->
+
+<!-- Modal 1 / Lead-to-Client-Pipeline-Case-Study.pdf -->
+<div class="modal fade" id="modal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content p-4">
+      <h4>Lead-to-Client Pipeline (GoHighLevel)</h4>
+      
+      <!-- Carousel -->
+      <div id="carousel1" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="assets/case-study-image/Lead-to-Client/Lead-to-Client(2).png" class="d-block w-100 rounded" alt="Pipeline 1"></div>
+          <div class="carousel-item"><img src="assets/case-study-image/Lead-to-Client/Lead-to-Client(1).png" class="d-block w-100 rounded" alt="Pipeline 2"></div>
+          <div class="carousel-item"><img src="assets/case-study-image/Lead-to-Client/Lead-to-Client.png" class="d-block w-100 rounded" alt="Pipeline 3"></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body" style="color:#102E50;">
+        <p><strong>⚠️ The Challenge:</strong> No structured system for capturing/nurturing leads → missed opportunities and inconsistent follow-ups.</p>
+
+        <p><strong>🎯 Objective:</strong> Build an automated pipeline that gives clear staging, timely communications, and a seamless Marketing → Sales transition.</p>
+
+        <p><strong>📌 CRM Process Flow:</strong></p>
+        <ul>
+          <li><b>A. Marketing:</b> Capture via forms/funnels → auto tagging + confirmation → calendar booking → 7-day re-engagement for idle leads → Ready for Sales.</li>
+          <li><b>B. Sales:</b> New Inquiry → Ready for Proposal → Contract & Billing (auto welcome, client code, invoicing) → Closed/Won; recycle NQ/NI to nurture.</li>
+        </ul>
+        <p style="color:#183B4E;"><strong>Tools Used:</strong> GoHighLevel, Google Calendar, Email Automation</p>
+        
+        <p><strong>🌱 Philosophical Core:</strong> Creative Empowerment • Practical Innovation • Community & Support.</p>
+
+        <p><strong>📊 Results (highlights):</strong> Faster responses, better tracking, higher engagement, and a smooth marketing-to-sales handoff.</p>
+
+        <p style="margin-bottom:0;"><em>Want the full breakdown with triggers, tags, and KPIs?</em></p>
+      </div>
+
+      <div class="modal-footer" style="border:0; gap:.5rem;">
+        <!-- Replace with your GitHub or site PDF URL -->
+        <a href="#"
+           class="btn" target="_blank" rel="noopener"
+           style="background-color:#DAC0A3; color:#102E50; font-weight:600;">
+          📖 Read full case study on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 / SaaS CRM Appointment Funnel (Agency) -->
+<div class="modal fade" id="modal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content p-4">
+      <h4>SaaS CRM Appointment Funnel — Short Version</h4>
+      
+      <div id="carousel2" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="assets/case-study-image/saas-appointment/crm_appointment (2).png" class="d-block w-100 rounded" alt="SaaS 1"></div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      </div>
+
+      <div class="modal-body" style="color:#102E50;">
+        <p><strong>⚠️ The Challenge:</strong> Disconnected tools, missed follow-ups, and low show-up rates for booked calls.</p>
+
+        <p><strong>🎯 Objective:</strong> Centralize appointments in a CRM and automate confirmations, reminders, and handoffs.</p>
+
+        <p><strong>📌 CRM Process Flow:</strong></p>
+        <ul>
+          <li><b>A. Marketing:</b> Landing page → form capture → auto email/SMS → calendar self-booking → re-engagement for idle leads.</li>
+          <li><b>B. Sales:</b> Auto-qualify → Ready for Proposal → Contract & Billing → recycle No-Shows with nurture.</li>
+        </ul>
+        
+        <p><strong>Tools Used:</strong> GoHighLevel, SOP Docs, Email, Google Calendar</p>
+        
+        <p><strong>🌱 Philosophical Core:</strong> Creative Empowerment, Practical Innovation, Community & Support.</p>
+
+        <p><strong>📊 Results (highlights):</strong> 50% fewer missed appointments, +30% show-up rate, 25% faster proposal→contract.</p>
+
+        <p style="margin-bottom:0;"><em>Want the full breakdown with screenshots, tags/triggers, and KPI table?</em></p>
+      </div>
+
+      <div class="modal-footer" style="border:0; gap:.5rem;">
+        <a href="#"
+           class="btn" target="_blank" rel="noopener"
+           style="background-color:#DAC0A3; color:#102E50; font-weight:600;">
+          📖 Read full case study on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 / GHL → QuickBooks Integration (via Pabbly) -->
+<div class="modal fade" id="modal4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content p-4">
+      <h4>Integration of GHL to QuickBooks via Pabbly — Short Version</h4>
+      
+      <div id="carousel4" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active"><img src="assets/case-study-image/GHL-QB-Integration/qb(1).png" class="d-block w-100 rounded" alt="QuickBooks 2"></div> 
+          <div class="carousel-item"><img src="assets/case-study-image/GHL-QB-Integration/qb(2).png" class="d-block w-100 rounded" alt="QuickBooks 2"></div>
+          <div class="carousel-item"><img src="assets/case-study-image/GHL-QB-Integration/qb(3).png" class="d-block w-100 rounded" alt="QuickBooks 3"></div> 
+          <div class="carousel-item"><img src="assets/case-study-image/GHL-QB-Integration/qb(4).png" class="d-block w-100 rounded" alt="QuickBooks 4"></div> 
+          <div class="carousel-item"><img src="assets/case-study-image/GHL-QB-Integration/qb.png" class="d-block w-100 rounded" alt="QuickBooks 6"></div> 
+          <div class="carousel-item"><img src="assets/case-study-image/GHL-QB-Integration/qb (5).png" class="d-block w-100 rounded" alt="QuickBooks 5"></div> 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+      </div>
+
+     <div class="modal-body" style="color:#102E50;">
+        <p><strong>⚠️ The Challenge:</strong> Sales team closed deals in GHL, but billing was manual in QuickBooks — causing delays, errors, and wasted admin time.</p>
+
+        <p><strong>🎯 Objective:</strong> Automate invoice creation the moment a deal is marked <em>Closed-Won</em> in GoHighLevel.</p>
+
+        <p><strong>📌 Process Flow:</strong></p>
+        <ul>
+          <li><b>Trigger:</b> GHL deal → Closed-Won</li>
+          <li><b>Pabbly:</b> Captures client details → maps fields to QuickBooks</li>
+          <li><b>Action:</b> Invoice auto-generated & emailed to client</li>
+        </ul>
+        <p><strong>Tools Used:</strong> GoHighLevel, Pabbly, QuickBooks, ClickUp</p>
+
+        <p><strong>🌱 Philosophical Core:</strong> Creative Empowerment • Practical Innovation • Community & Support</p>
+
+        <p><strong>📊 Results:</strong> 80% less manual work, 100% invoice accuracy, instant client billing, finance synced in real time.</p>
+
+        <p style="margin-bottom:0;"><em>Want the full breakdown with mappings, triggers, and automation steps?</em></p>
+      </div>
+
+      <div class="modal-footer" style="border:0; gap:.5rem;">
+        <!-- Replace with your GitHub or site PDF URL -->
+        <a href="YOUR_GITHUB_OR_PDF_URL_HERE"
+           class="btn" target="_blank" rel="noopener"
+           style="background-color:#DAC0A3; color:#102E50; font-weight:600;">
+          📖 Read full case study on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 / Signed Contract → Onboarding Trigger -->
+<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content p-4" style="background-color:#F9F3EF; border-radius:16px;">
+
+      <!-- Header -->
+      <div class="modal-header" style="border:0;">
+        <h4 class="modal-title" id="modal5Label" style="color:#102E50;">
+          Signed Contract → Onboarding Trigger — Short Version
+        </h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="modal-body" style="color:#102E50;">
+        <!-- Carousel -->
+        <div id="carousel5" class="carousel slide mb-3" data-bs-ride="carousel">
+          <div class="carousel-inner">
+          <!-- <div class="carousel-item active"><img src="assets/case-study-image/Signed-Contract-Onboarding/Signed-Contract.png" class="d-block w-100 rounded" alt="Signed Contract Slide 1"></div> -->
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+
+        <!-- Case Study Content -->
+        <p><strong>⚠️ The Challenge:</strong> After contracts were signed, onboarding often lagged — clients waited days before receiving a welcome or project kickoff.</p>
+
+        <p><strong>🎯 Objective:</strong> Automate the onboarding process the moment a contract is signed, reducing delays and creating a great first impression.</p>
+
+        <p><strong>📌 Process Flow:</strong></p>
+        <ul>
+          <li><b>Trigger:</b> Contract signed in CRM/eSignature tool</li>
+          <li><b>Automation:</b>
+            <ul>
+              <li>Send Welcome Email + Onboarding Guide</li>
+              <li>Create Client Folder & Project Board (ClickUp/Asana/Trello)</li>
+              <li>Assign internal tasks to relevant team members</li>
+              <li>Generate Client Code & Add to Finance/CRM</li>
+            </ul>
+          </li>
+        </ul>
+
+        <p><strong>🛠 Tools Used:</strong></p>
+        <ul>
+          <li><b>eSignature:</b> GoHighLevel</li>
+          <li><b>Automation:</b> Pabbly Connect</li>
+          <li><b>Communication:</b> Gmail / GoHighLevel</li>
+          <li><b>Project Management:</b> ClickUp / Asana / Trello</li>
+          <li><b>Files & Client Setup:</b> Google Drive / OneDrive</li>
+          <li><b>Finance:</b> QuickBooks</li>
+          <li><b>Notifications:</b> Slack</li>
+        </ul>
+
+        <p><strong>🌱 Philosophical Core:</strong> Creative Empowerment • Practical Innovation • Community & Support</p>
+
+        <p><strong>📊 Results:</strong> Onboarding time reduced from days to minutes; improved client satisfaction; smoother internal alignment.</p>
+
+        <p style="margin-bottom:0;"><em>Want the full automation breakdown with tools, triggers, and task mapping?</em></p>
+      </div>
+
+      <!-- Footer -->
+      <div class="modal-footer" style="border:0; gap:.5rem;">
+        <a href="YOUR_GITHUB_OR_PDF_URL_HERE"
+           class="btn" target="_blank" rel="noopener"
+           style="background-color:#DAC0A3; color:#102E50; font-weight:600;">
+          📖 Read full case study on GitHub
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+ <!-- PHILOSOPHICAL CORE -->
+<section id="core" class="section core-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">My 3 Philosophical Core</h2>
+    <div class="row justify-content-center text-center g-4">
+
+      <!-- Core 1 -->
+      <div class="col-md-4">
+        <div class="core-item p-4 border rounded h-100">
+          <img src="assets/core/1.png" alt="Core 1 Icon" class="mb-3" style="max-width: 80px;">
+          <h3 class="h5">Planning Starts With You</h3>
+          <p>Every great project begins with a personal commitment. I believe success is built on clarity — mapping goals from the inside out.</p>
+        </div>
+      </div>
+
+      <!-- Core 2 -->
+      <div class="col-md-4">
+        <div class="core-item p-4 border rounded h-100">
+          <img src="assets/core/2.png" alt="Core 2 Icon" class="mb-3" style="max-width: 80px;">
+          <h3 class="h5">Track Your Way</h3>
+          <p>Progress isn't always linear. I focus on sustainable systems that reflect how you really work — not just how you “should.”</p>
+        </div>
+      </div>
+
+      <!-- Core 3 -->
+      <div class="col-md-4">
+        <div class="core-item p-4 border rounded h-100">
+          <img src="assets/core/3.png" alt="Core 3 Icon" class="mb-3" style="max-width: 80px;">
+          <h3 class="h5">The Little Things Matter</h3>
+          <p>Small details create big impact. Whether it’s a button color or an automated email, I value intentional design in every decision.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- TESTIMONIALS -->
+<section id="testimonials" class="section testimonials py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title text-center mb-5">What Clients Say</h2>
+    
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner text-center">
+
+        <div class="carousel-item active">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
+            <p class="mb-4">“Before working with Fia, our sales follow-up took days. Now it’s instant — and we’ve doubled our booked calls.”</p>
+            <footer class="blockquote-footer">Maria R.</footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
+            <p class="mb-4">“She designed a brand kit that made my business look polished overnight.”</p>
+            <footer class="blockquote-footer">Lorenzo P.</footer>
+          </blockquote>
+        </div>
+
+        <div class="carousel-item">
+          <blockquote class="blockquote mx-auto" style="max-width: 700px;">
+            <p class="mb-4">“Fia turned my messy workflows into a system that saves me hours weekly.”</p>
+            <footer class="blockquote-footer">Ana S.</footer>
+          </blockquote>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+  <br><hr><br>
+  
+<!-- TESTIMONIALS (2 Layers, 2 Cards Each, About-Card Style) -->
+<div class="container">
+  <h2 class="section-title text-center mb-5">Trusted By</h2>
+
+  <div class="row g-4 justify-content-center">
+    <!-- First Layer -->
+    <div class="col-lg-6 col-md-6">
+      <div class="about-card text-center">
+        <img src="assets/client-say/client-say.png" class="mx-auto d-block" style="width:100%; border-radius:16px;">
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6">
+      <div class="about-card text-center">
+        <img src="assets/client-say/client-say (2).png" class="mx-auto d-block" style="width:100%; border-radius:16px;">
+      </div>
+    </div>
+
+    <!-- Second Layer -->
+    <div class="col-lg-6 col-md-6">
+      <div class="about-card text-center">
+        <img src="assets/client-say/client-say (3).png" class="mx-auto d-block" style="width:100%; border-radius:16px;">
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6">
+      <div class="about-card text-center">
+        <img src="assets/client-say/client-say (6).png" class="mx-auto d-block" style="width:100%; border-radius:16px;">
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- ABOUT -->
+  <section id="about" class="section bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <h2> Summary </h2>
+          <hr>
+      <p>
+        I’m <strong>Sofia Angela</strong> also known as Fia — a creative problem solver with a love for both systems and design.  
+        I started <em>Little Things by Fia</em> because I believe small, thoughtful details make the biggest difference.  
+        My work bridges automation, web, and branding — helping businesses run smarter and look better.
+      </p>
+
+        <h4 class="mt-4">Core Skills & Tools</h4>
+        <ul class="row row-cols-2 mt-2">
+          <li>🔧 CRM: GoHighLevel, Pabbly, Zapier, QuickBooks</li>
+          <li>🌐 Web: HTML, CSS, JavaScript, PHP/MySQL</li>
+          <li>🛠️ CMS: WordPress customization & hosting</li>
+          <li>🎨 Design: Canva (daily), Adobe Suite (foundational)</li>
+          <li>🧪 QA: Testing, issue logging, heuristic reviews</li>
+          <li>📋 PM Tools: ClickUp, Trello, Notion</li>
+        </ul>
+        </div>
+        <div class="col-lg-4">
+          <div class="about-card">
+            <img src="/assets/me.jpg" class="mx-auto d-block" style="width:100%"> 
+            <br>
+            <h3>Work with Me</h3>
+            <br>
+            <!-- <a class="btn btn-primary w-100 mb-2" href="assets/sofia-baltazar-resume.pdf" target="_blank">My Résumé (PDF)</a> -->
+            <a class="btn btn-ghost w-100" href="https://www.linkedin.com/in/sofia-baltazar-working" target="_blank">LinkedIn Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- CONTACT simple-->
+<section id="contact" class="py-5" style="background: url('assets/shell royal blue.png') no-repeat center center/cover; position: relative;">
+  <div class="container d-flex justify-content-center">
+    <div class="card shadow-lg text-center p-4" style="max-width: 500px;">
+      <div class="card-body">
+        <h2 class="card-title mb-3">Contact Me</h2>
+        <p class="card-text mb-4">
+          Have a project in mind or just want to connect?<br>
+          I’d love to hear from you.
+        </p>
+        <br>
+        <div class="d-grid gap-3">
+          <a href="https://m.me/littlethingsbyfia" target="_blank" class="btn btn-primary">
+            <i class="bi bi-messenger me-2"></i> Message Me on Facebook
+          </a>
+          <a href="mailto:sofiabaltazar.working@gmail.com" class="btn btn-secondary">
+            <i class="bi bi-envelope-fill me-2"></i> Send an Email
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- CONTACT with form-->
+<!--  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Let’s Work Together</h2>
+      <p>Ready to start your project? Fill out the form below or book a call.</p> -->
+
+      <!-- Google Form Embed -->
+     <!-- <iframe src="https://docs.google.com/forms/d/e/YOUR-FORM-ID/viewform?embedded=true"
+              width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+      <div class="contact-cta">
+        <a href="https://calendly.com/YOUR-CALENDLY" target="_blank" class="btn-primary">Book a Call</a>
+        <a href="mailto:sofiabaltazar.working@gmail.com" class="btn-secondary">Email Me</a>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Sofia Angela • Portfolio</p>
+      <div class="social">
+        <a href="https://github.com/iamsofiaangela" target="_blank">GitHub</a>
+        <a href="https://instagram.com/littlethingsbyfia" target="_blank">Instagram</a>
+        <a href="https://facebook.com/littlethingsbyfia" target="_blank">Facebook</a>
+        <a href="https://tiktok.com/@littlethingsbyfia" target="_blank">TikTok</a>
+      </div>
+    </div>
+  </footer>
+
+<script>
+  // Mobile nav toggle
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
+  toggle.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('open');
+  });
+
+  // Set current year in footer
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Show More / Show Less toggle
+  const toggleBtn = document.getElementById("toggleBtn");
+  const moreProjects = document.getElementById("more-projects");
+
+  moreProjects.addEventListener("shown.bs.collapse", () => {
+    toggleBtn.innerHTML = "▲ Show Less";
+  });
+
+  moreProjects.addEventListener("hidden.bs.collapse", () => {
+    toggleBtn.innerHTML = "▼ Show More";
+  });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
