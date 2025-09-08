@@ -13,6 +13,10 @@
 ├─ portfolio/           → Portfolio / Projects
 │   Showcase technical projects, CRM setups, workflow automation, QA results
 │
+|
+├─ Philosophical Core: guiding principles, work philosophy, creative & technical values
+|
+|
 ├─ testimonials/        → Testimonials
 │   Client reviews, success stories, measurable results
 │
@@ -24,13 +28,6 @@
 │   Mission & approach
 │   Highlights of expertise
 │   Optional personal touch: photo, quote
-│   Philosophical Core: guiding principles, work philosophy, creative & technical values
-│
-├─ careers/             → Freelance / Career Opportunities
-│   Entry-Level & Mid-Level roles
-│
-├─ target-clients/      → Target Clients
-│   Startups/SMEs, companies needing CRM/workflow solutions
 │
 ├─ footer/              → Footer
 │   Quick links to all pages, copyright info, social media/GitHub links
