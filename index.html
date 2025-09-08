@@ -124,54 +124,132 @@
     </div>
   </section>
   
-<!-- Services Section -->
-<section id="services" class="services-section py-16 bg-gray-50">
-  <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center mb-12">Services</h2>
+<!-- SERVICES (Creative Showcase Style) -->
+<section id="services" class="section services-section py-5" 
+         style="background: url('assets/shell royal blue.png') no-repeat center center/cover; position: relative;">
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div style="padding: 3rem 0;">
+    <div class="container">
+      <h2 class="text-center mb-4" style="color: #ffffff;">Services by Sofia Angela</h2>
+      <p class="text-center mb-5" style="color: #ffffff;">Offering tailored solutions for businesses and freelancers — services that give you <em>efficiency, reliability, and strategy</em> without the stress.</p>
+      <div class="row g-4">
 
-      <!-- Technical & Automation -->
-      <div class="service-card p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
-        <h3 class="text-xl font-semibold mb-4">Technical & Automation</h3>
-        <p class="text-gray-600 mb-4">Streamline workflows, set up CRM systems, and automate repetitive tasks to save time and boost efficiency.</p>
-        <ul class="list-disc list-inside text-gray-600">
-          <li>CRM Setup & Integration</li>
-          <li>Workflow Automation</li>
-          <li>Custom Scripts & Tools</li>
-        </ul>
+        <!-- Service 1: Technical & Automation -->
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card shadow p-3 rounded h-100 text-center bg-white">
+            <h3 class="h5">Technical & Automation</h3>
+            <p class="service-desc">Streamline workflows, integrate systems, and automate tasks to save time and boost efficiency.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Book This Service</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#technicalModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Service 2: QA & Functional Testing -->
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card shadow p-3 rounded h-100 text-center bg-white">
+            <h3 class="h5">QA & Functional Testing</h3>
+            <p class="service-desc">Ensure websites, landing pages, and workflows function perfectly with detailed testing.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Book This Service</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#qaModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Service 3: Project & Operations Management -->
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card shadow p-3 rounded h-100 text-center bg-white">
+            <h3 class="h5">Project & Operations Management</h3>
+            <p class="service-desc">Organize tasks, manage resources, and ensure smooth operations across all projects.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Book This Service</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#projectModal">More Info</button>
+          </div>
+        </div>
+
+        <!-- Service 4: Consulting & Strategy -->
+        <div class="col-md-6 col-lg-3">
+          <div class="service-card shadow p-3 rounded h-100 text-center bg-white">
+            <h3 class="h5">Consulting & Strategy</h3>
+            <p class="service-desc">Provide insights, planning, and strategic solutions to help businesses grow effectively.</p>
+            <a href="#contact" class="btn btn-primary btn-sm mt-2">Book This Service</a>
+            <button class="btn btn-outline-secondary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#consultingModal">More Info</button>
+          </div>
+        </div>
+
       </div>
-
-      <!-- QA & Functional Testing -->
-      <div class="service-card p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
-        <h3 class="text-xl font-semibold mb-4">QA & Functional Testing</h3>
-        <p class="text-gray-600 mb-4">Ensure websites, landing pages, and CRM workflows perform perfectly and error-free.</p>
-        <ul class="list-disc list-inside text-gray-600">
-          <li>Website & Landing Page QA</li>
-          <li>CRM Workflow Testing</li>
-          <li>Bug Identification & Reporting</li>
-        </ul>
-      </div>
-
-      <!-- Project & Operations Management -->
-      <div class="service-card p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition duration-300">
-        <h3 class="text-xl font-semibold mb-4">Project & Operations Management</h3>
-        <p class="text-gray-600 mb-4">Keep projects organized, track progress, and manage resources efficiently for smooth operations.</p>
-        <ul class="list-disc list-inside text-gray-600">
-          <li>Project Planning & Coordination</li>
-          <li>Resource & Task Management</li>
-          <li>Operations Workflow Optimization</li>
-        </ul>
-      </div>
-
     </div>
   </div>
 </section>
 
+<!-- SERVICES – “Core Skills of Sofia Angela” -->
+<section id="services" class="section py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">
+        Core Skills of <strong class="text-primary">Sofia Angela</strong>
+      </h2>
+      <span>Here’s what I excel at — combining technical know-how, automation, and project management to deliver results.</span>
+    </div>
 
-<!-- Core Skills -->
-<section id="skills" class="section py-5 bg-white">
+    <div class="row align-items-center">
+      <!-- Left Column -->
+      <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+        <div class="pb-sm-4 text-center text-sm-end">
+          <div class="mb-4">
+            <img src="assets/skills/1.png" alt="Web Development" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Web Development</h4>
+          <p class="small-text mb-0">Building responsive, modern websites with clean code, smooth UX, and strong performance.</p>
+        </div>
+        <div class="text-center text-sm-end mt-4">
+          <div class="mb-4">
+            <img src="assets/skills/2.png" alt="Automation & CRM" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Automation & CRM</h4>
+          <p class="small-text mb-0">Streamlining workflows, integrating systems, and automating repetitive tasks for efficiency.</p>
+        </div>
+      </div>
+
+      <!-- Center Image Column -->
+      <div class="col-lg-4 d-none d-lg-block text-center">
+        <div class="core-skills-center-image">
+          <img src="assets/Logo - Sofia Angela.png" alt="Sofia Angela Logo" class="rounded-circle" style="width:250px;">
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6 col-lg-4">
+        <div class="ps-md-4 text-center text-sm-start">
+          <div class="mb-4">
+            <img src="assets/skills/3.png" alt="Project Management" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Project & Operations Management</h4>
+          <p class="small-text mb-0">Organizing tasks, managing resources, and ensuring smooth operations from start to finish.</p>
+        </div>
+        <div class="text-center text-sm-start mt-4">
+          <div class="mb-4">
+            <img src="assets/skills/4.png" alt="QA & Testing" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">QA & Functional Testing</h4>
+          <p class="small-text mb-0">Testing workflows, websites, and systems to ensure everything runs flawlessly and reliably.</p>
+        </div>
+        <div class="text-center text-sm-start mt-4">
+          <div class="mb-4">
+            <img src="assets/skills/5.png" alt="Support & Guidance" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Support & Guidance</h4>
+          <p class="small-text mb-0">Providing guidance, training, and support to clients for long-term success after launch.</p>
+        </div>
+        <div class="text-center text-sm-start mt-4">
+          <div class="mb-4">
+            <img src="assets/skills/6.png" alt="Consulting & Strategy" class="rounded-circle" style="width:80px;">
+          </div>
+          <h4 class="sub-info">Consulting & Strategy</h4>
+          <p class="small-text mb-0">Offering insights, planning, and solutions to help businesses grow efficiently and effectively.</p>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
 
 <!-- CASE STUDIES -->
 <section id="projects" class="section py-5" style="background-color:#456882;">
