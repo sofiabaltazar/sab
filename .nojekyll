@@ -1,0 +1,51 @@
+/ (root)
+├─ index.html           → **Home**
+│   Hero section with your name & tagline  
+│   Brief overview of services/expertise  
+│   CTA buttons: “View Services” → /services, “Contact Me” → /contact
+│
+├─ services/            → **Services**
+│   Technical & Automation: CRM setup, workflow automation, integrations  
+│   QA & Functional Testing: Websites, landing pages, CRM workflows  
+│   Project & Operations Management: Project planning, client support
+│
+├─ core-skills/         → **Core Skills**
+│   CRM & Automation: GoHighLevel, Pabbly  
+│   Project Management: ClickUp  
+│   QA & Testing: Functional & performance QA  
+│   Web & System Support: Backend configuration, workflow troubleshooting
+│
+├─ portfolio/           → **Portfolio / Projects**
+│   Showcase technical projects, CRM setups, workflow automation, QA results  
+│   Include screenshots, case studies, or live project links
+│
+├─ testimonials/        → **Testimonials**
+│   Client reviews, success stories, and measurable results
+│
+├─ contact/             → **Contact**
+│   Inquiry form for clients/projects  
+│   Email and social media links  
+│   Optional CTA linking to Little Things brand → /littlethings
+│
+├─ careers/             → **Freelance / Career Opportunities**
+│   Entry-Level Roles: System Engineer, CRM Assistant, Junior Project Coordinator, Technical Support  
+│   Mid-Level Roles: Project Lead / Manager, Customer Success Manager, QA Analyst, Operations Manager
+│
+├─ target-clients/      → **Target Clients**
+│   Startups / SMEs needing automation  
+│   Companies requiring CRM & workflow solutions  
+│   Technical projects requiring QA & operations management
+│
+├─ about/               → **About**
+│   Bio and professional story  
+│   Mission & approach  
+│   Highlights of expertise  
+│   Optional personal touch: photo, quote, philosophy
+│
+├─ footer/              → **Footer**
+│   Quick links to all pages  
+│   Copyright info  
+│   Social media / GitHub links
+│
+└─ .nojekyll            → Disables GitHub Pages Jekyll processing  
+                          (empty file, ensures folder/files with underscores are served properly)
