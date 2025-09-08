@@ -776,30 +776,30 @@
       <div class="row text-center">
         <div class="col-6 col-lg-3">
           <div class="count-data">
-        <h6 class="count h2" data-target="500">0</h6>
-        <p class="m-0px font-w-600">Happy Clients</p>
+            <h6 class="count h2" data-to="500" data-speed="500">500</h6>
+            <p class="m-0px font-w-600">Happy Clients</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="count-data">
+            <h6 class="count h2" data-to="150" data-speed="150">150</h6>
+            <p class="m-0px font-w-600">Projects Completed</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="count-data">
+            <h6 class="count h2" data-to="850" data-speed="850">850</h6>
+            <p class="m-0px font-w-600">Tasks Automated</p>
+          </div>
+        </div>
+        <div class="col-6 col-lg-3">
+          <div class="count-data">
+            <h6 class="count h2" data-to="190" data-speed="190">190</h6>
+            <p class="m-0px font-w-600">Consultations</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="col-6 col-lg-3">
-      <div class="count-data">
-        <h6 class="count h2" data-target="150">0</h6>
-        <p class="m-0px font-w-600">Projects Completed</p>
-      </div>
-    </div>
-    <div class="col-6 col-lg-3">
-      <div class="count-data">
-        <h6 class="count h2" data-target="850">0</h6>
-        <p class="m-0px font-w-600">Tasks Automated</p>
-      </div>
-    </div>
-    <div class="col-6 col-lg-3">
-      <div class="count-data">
-        <h6 class="count h2" data-target="190">0</h6>
-        <p class="m-0px font-w-600">Consultations</p>
-      </div>
-    </div>
-  </div>
-</div>
   </div>
 </section>
 
@@ -885,36 +885,6 @@ moreProjects.addEventListener("shown.bs.collapse", () => {
 moreProjects.addEventListener("hidden.bs.collapse", () => {
   toggleBtn.innerHTML = "▼ Show More";
 });
-
-// Animated Counters (trigger on scroll into view)
-const counters = document.querySelectorAll('.count');
-const speed = 200; // lower = faster
-
-const counterObserver = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if(entry.isIntersecting) {
-      const counter = entry.target;
-      const target = +counter.getAttribute('data-target');
-      let count = 0;
-
-      const updateCount = () => {
-        const increment = Math.ceil(target / speed);
-        count += increment;
-        if(count < target) {
-          counter.innerText = count;
-          requestAnimationFrame(updateCount);
-        } else {
-          counter.innerText = target;
-        }
-      };
-
-      updateCount();
-      observer.unobserve(counter); // stop observing after animating
-    }
-  });
-}, { threshold: 0.5 }); // trigger when 50% visible
-
-counters.forEach(counter => counterObserver.observe(counter));
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
