@@ -805,35 +805,46 @@
   </footer>
 
 <script>
-// ===============================
-// Mobile nav toggle
-// ===============================
-const toggle = document.querySelector('.nav-toggle');
-const nav = document.querySelector('.nav');
+document.addEventListener("DOMContentLoaded", function () {
 
-toggle.addEventListener('click', () => {
-  const open = toggle.getAttribute('aria-expanded') === 'true';
-  toggle.setAttribute('aria-expanded', String(!open));
-  nav.classList.toggle('open');
-});
+  // ===============================
+  // Mobile nav toggle
+  // ===============================
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.nav');
 
-// ===============================
-// Set current year in footer
-// ===============================
-document.getElementById('year').textContent = new Date().getFullYear();
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open');
+    });
+  }
 
-// ===============================
-// Show More / Show Less toggle
-// ===============================
-const toggleBtn = document.getElementById("toggleBtn");
-const moreProjects = document.getElementById("more-projects");
+  // ===============================
+  // Set current year in footer
+  // ===============================
+  const yearEl = document.getElementById('year');
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
 
-moreProjects.addEventListener("shown.bs.collapse", () => {
-  toggleBtn.innerHTML = "▲ Show Less";
-});
+  // ===============================
+  // Show More / Show Less toggle
+  // ===============================
+  const toggleBtn = document.getElementById("toggleBtn");
+  const moreProjects = document.getElementById("more-projects");
 
-moreProjects.addEventListener("hidden.bs.collapse", () => {
-  toggleBtn.innerHTML = "▼ Show More";
+  if (moreProjects && toggleBtn) {
+    moreProjects.addEventListener("shown.bs.collapse", () => {
+      toggleBtn.innerHTML = "▲ Show Less";
+    });
+
+    moreProjects.addEventListener("hidden.bs.collapse", () => {
+      toggleBtn.innerHTML = "▼ Show More";
+    });
+  }
+
 });
 </script>
 
